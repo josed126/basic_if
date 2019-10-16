@@ -9,10 +9,10 @@ public class AllEqual
         int b = Integer.parseInt(args[1]);
 	int c = Integer.parseInt(args[2]);
 
-	if (a == b || a == c || c == b) {
-		 System.out.println("es igual");}
+	if (a == b && a == c && c == b) {
+		 System.out.println("equal");}
 	else {
-		 System.out.println("no es igual");
+		 System.out.println("not equal");
 }
 
 }  
